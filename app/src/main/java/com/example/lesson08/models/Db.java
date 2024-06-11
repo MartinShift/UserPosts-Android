@@ -1,4 +1,4 @@
-package com.example.lesson08;
+package com.example.lesson08.models;
 
 import com.example.lesson08.models.Post;
 import com.example.lesson08.models.User;

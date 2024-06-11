@@ -10,8 +10,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.example.lesson08.models.Db;
 import com.example.lesson08.models.Post;
 import com.example.lesson08.models.PostAdapter;
 import com.example.lesson08.models.User;
@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        int slideNumber = getSavedSlideNumber();
         viewPager = findViewById(R.id.viewPager);
         tvSlideNumber = findViewById(R.id.tvSlideNumber);
         btnLastSlide = findViewById(R.id.btnLastSlide);
